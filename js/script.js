@@ -1,4 +1,8 @@
 {
+    const welcome = () => {
+        console.log("Welcome on my page developer! 😍")
+    }
+
     const tasks = [
         {
             content: "zrobić kurs youcode",
@@ -54,7 +58,7 @@
               class="tasks__item ${task.done ? "tasks__content--done" : ""}" 
               >
               <button class="tasks__button tasks__button--doneToggle js-doneToggle">✔</button>  
-                ${task.content} 
+                ${task.content}
               <button class="tasks__button tasks__button--remove js-remove">🗑</button>  
               </li>
             `;
@@ -78,6 +82,8 @@
 
     const init = () => {
         render();
+
+        welcome();
 
         const form = document.querySelector(".js-form");
 
