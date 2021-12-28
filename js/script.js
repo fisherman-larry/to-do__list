@@ -3,12 +3,7 @@
         console.log("Welcome on my page developer! 😍")
     }
 
-    const tasks = [
-        {
-            content: "zrobić kurs youcode",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
