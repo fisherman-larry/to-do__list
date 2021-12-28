@@ -24,6 +24,7 @@
 
 .form__button:hover {
     background: hsl(174, 56%, 35%);
+    cursor: pointer;
 }
 
 .form__button:active {
