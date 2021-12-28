@@ -5,3 +5,12 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+body {
+    background: #eee;
+
+    font-family: 'Oxanium', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Spartan', sans-serif;
+}
