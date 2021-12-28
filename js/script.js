@@ -6,10 +6,6 @@
     const tasks = [
         {
             content: "zrobić kurs youcode",
-            done: false,
-        },
-        {
-            content: "umyć naczynia",
             done: true,
         },
     ];
