@@ -9,3 +9,23 @@
         grid-template-columns: 1fr;
     }
 }
+
+.form__input {
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+    padding: 11px;
+    background: rgb(32, 114, 106);
+    color: white;
+    border: none;
+}
+
+.form__button:hover {
+    background: hsl(174, 56%, 35%);
+}
+
+.form__button:active {
+    background: hsl(174, 56%, 45%);
+}
